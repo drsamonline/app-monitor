@@ -1,0 +1,27 @@
+NOTICE
+======
+
+Monitor — https://github.com/drsamonline/app-monitor
+Copyright 2026 Dr Sohil Momin. Licensed under PolyForm Noncommercial 1.0.0 (see LICENSE).
+
+Third-party components
+----------------------
+
+None. Monitor has no third-party dependency and no CDN.
+
+Vendored from this project's own kits (same licence, same author), copied verbatim on 26/11/2026:
+
+- web-kit 0.1.0 — docs/play/web-kit.js — the offline shell, storage helpers and PWA registration
+- export-kit 1.0.0 — docs/play/export-kit.js — Blob download, used for the archive export
+
+Neither kit is modified. Neither makes a network request.
+
+It does not crawl
+-----------------
+
+There is no fetch, no crawler and no url queue in this app. A page arrives only because a person
+pasted it, and it is stored with the date it was saved. Every rule shows when it was last run, with the
+age in words, so a stale table cannot look live.
+
+The selector grammar is deliberately small — tag, .class, tag.class, #id, tag[attr=value] — and it is
+validated when a rule is saved, so a scrape is never run against a rule the app did not understand.
