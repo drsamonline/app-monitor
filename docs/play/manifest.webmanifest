@@ -1,0 +1,15 @@
+{
+  "name": "Monitor — the pages you kept, searchable offline",
+  "short_name": "Monitor",
+  "description": "Archive the pages you chose to keep, with their dates, and search them offline. It does not crawl the web.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f6f5f2",
+  "theme_color": "#101418",
+  "lang": "en-IN",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
+  ]
+}
