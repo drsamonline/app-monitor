@@ -76,9 +76,9 @@
     if (!out.ok) { setStatus("warn", out.reason); return; }
     var marked = M.markRun(state.store, state.lastRule.id, out.rows.length, Date.now());
     state.store = marked.store;
-    persist();
+    var saved = persist();
     renderRules();
-    setStatus("ok", out.says);
+    if (saved) setStatus("ok", out.says);
   }
 
   function search() {
