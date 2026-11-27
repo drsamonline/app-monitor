@@ -8,6 +8,7 @@ The pages you chose to keep, with the date you kept them, searchable offline. **
 - **Plan row:** #20 of 37 in `drsamonline/forge` → `QUEUE/PLAN.json`
 - **Specs absorbed:** `app-trawler` (lead)
 - **Licence:** PolyForm Noncommercial 1.0.0
+- **Sponsor:** [github.com/sponsors/drsamonline](https://github.com/sponsors/drsamonline) — free, offline, no account
 
 ## Status
 
